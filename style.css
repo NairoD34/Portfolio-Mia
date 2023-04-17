@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(./Photo/website-background-templates.jpg) ;
+    background-image: url(photo/website-background-templates.jpg) ;
     background-repeat:none;
     background-size: cover;
     background-position: center;
