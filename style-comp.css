@@ -1,0 +1,98 @@
+main{
+    width: auto ;
+    height: 50%;
+    padding: 30px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+h2{
+    font-size: 17px;
+}
+p{
+    font-size: 15px;
+    font-style: italic;
+    color: rgba(145, 12, 150, 0.897);
+}
+.titre-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+.column-un{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 10px;
+    height: 500px;
+    
+}
+.column-deux{
+    height: 500px;
+    display: flex;
+    object-fit: cover;
+    padding: 10px;
+    
+}
+.column-trois{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+}
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 5px;
+}
+.content-card-deux{
+    padding: 5px;
+}
+.text-colum-un{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.passion{
+    display: flex;
+    flex-direction: column;
+
+}
+.ligne-un{
+    display: flex;
+}
+.ligne-deux{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+}
+.content-card:hover{
+    background-color: rgb(228, 207, 228);
+    box-shadow: 13px 8px 15px -6px rgba(0,0,0,0.53);
+}
+
+.content-card-deux:hover{
+    background-color: rgb(228, 207, 228);
+    box-shadow: -10px 8px 15px -6px rgba(0,0,0,0.53);
+}
+.titre-logo--Secondary{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 35%;
+    
+}
+.icon{
+    font-size: 30px;
+}
+.cv{
+    font-size: 25px;
+    font-weight: bold;
+}

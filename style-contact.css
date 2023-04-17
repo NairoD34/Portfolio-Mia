@@ -1,0 +1,42 @@
+
+main{
+    width: 50%;
+    margin:70px auto;
+    height: 40% ;
+    padding: 30px;
+    background-color: rgb(228, 207, 228);
+    border-radius: 5px;
+    box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.26); ;
+   
+}
+.titre-contact{
+margin: auto;
+width: fit-content;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+    
+}
+.card-contact{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    height: 70%;
+}
+.logo:hover{
+    transform: rotate(180deg);
+}
+.logo{
+    font-size: 25px;
+    transition: all 0.5s;
+}
+a{
+    text-decoration: none;
+}
