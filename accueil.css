@@ -3,23 +3,26 @@ main{
     display: flex;
     justify-content: center;
     margin:30px auto;
-    height: 70% ;
+    height: auto ;
     padding: 30px;
-    background-color: rgb(228, 207, 228);
+    background-color: 
+    rgb(176,196,222);
     border-radius: 5px;
     box-shadow: 3px 0px 3px 0px rgba(0,0,0,0.26); ;
 
 }
 .img-main{
-    width: 40%;
+    width: 20%;
     display: flex;
     object-fit: cover;
+    height:50%;
+    justify-content: center;
 }
 .txt-main{
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 
 }
 main h1{
